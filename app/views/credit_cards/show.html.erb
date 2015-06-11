@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Recno:</strong>
+  <%= @credit_card.recno %>
+</p>
+
+<p>
+  <strong>Code:</strong>
+  <%= @credit_card.code %>
+</p>
+
+<p>
+  <strong>Vendor description:</strong>
+  <%= @credit_card.vendor_description %>
+</p>
+
+<p>
+  <strong>Balance transfer:</strong>
+  <%= @credit_card.balance_transfer %>
+</p>
+
+<p>
+  <strong>Has balance transfer:</strong>
+  <%= @credit_card.has_balance_transfer %>
+</p>
+
+<%= link_to 'Edit', edit_credit_card_path(@credit_card) %> |
+<%= link_to 'Back', credit_cards_path %>

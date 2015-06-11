@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  recno: MyString
+  code: MyString
+  vendor_description: MyText
+  balance_transfer: 9.99
+  has_balance_transfer: false
+
+two:
+  recno: MyString
+  code: MyString
+  vendor_description: MyText
+  balance_transfer: 9.99
+  has_balance_transfer: false
